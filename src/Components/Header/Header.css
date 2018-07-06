@@ -1,0 +1,24 @@
+.header {
+        display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+    border: 1px solid black;
+    font-size: 20px;
+    font-family: monospace; 
+    background-color: #262934 !important;
+    padding: 0 10%;
+}
+
+.links {
+    padding: 15px 0;
+}
+
+.selectedLink {
+    color: #E31B6D;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
