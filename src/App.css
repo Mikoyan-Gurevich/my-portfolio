@@ -1,10 +1,10 @@
-html, body, #root, .app, .homePage {
+html, body, #root, .app, .homePage, .body {
+  /* TODO - we need to remove .body from above as this is creating unnecessary scroll in pages */
   height: 100%;
 }
 
 .App {
   text-align: center;
   /* font-family: 'Roboto', sans-serif; */
-  font-family: monospace;
+  font-family: sans-serif;
 }
-

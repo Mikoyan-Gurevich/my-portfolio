@@ -5,6 +5,7 @@ import About from './Components/About/About';
 import Header from './Components/Header/Header';
 import Contact from './Components/Contact/Contact';
 import Footer from './Components/Footer/Footer';
+import Resume from './Components/Resume/Resume';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 
@@ -15,9 +16,12 @@ class App extends Component {
         <Router>
           <React.Fragment>
             <Route path="/:path+" component={Header} />
-            <Route exact path="/" component={HomePage} />
-            <Route path="/about" component={About} />
-            <Route path="/contact" component={Contact} />
+            <div className='body'>
+              <Route exact path="/" component={HomePage} />
+              <Route path="/about" component={About} />
+              <Route path="/contact" component={Contact} />
+              <Route path="/resume" component={Resume} />
+            </div>
             <Route path="/:foo+" component={Footer} />
           </React.Fragment>
         </Router>

@@ -13,7 +13,7 @@
   color: #fff;
   line-height: 50px;
     text-align: center;
-    font-family: monospace;
+    font-family: sans-serif;
 }
 
 .name {
@@ -28,7 +28,7 @@
   height: 50px;
   font-size: 22px !important;
   background: transparent !important;
-  font-family: monospace;
+  font-family: sans-serif;
   color: #fff !important;
   outline: none;
   cursor: pointer;

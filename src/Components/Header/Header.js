@@ -14,6 +14,7 @@ class Header extends Component {
             { id: 3, name: 'Portfolio', url: '/portfolio' },
             { id: 4, name: 'Blog', url: '/blog' },
             { id: 5, name: 'Contact', url: '/contact' },
+            { id: 6, name: 'Resume', url: '/resume' }
         ];
         this.selectLink = this.selectLink.bind(this);
     }

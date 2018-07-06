@@ -1,0 +1,87 @@
+.resume {
+    margin: 150px 10%;
+    /* font-family: sans-serif; */
+}
+.resume img {
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    right: 15px;
+    bottom: 70px;
+    cursor: pointer;
+}
+
+@media print {
+    body {
+        -webkit-print-color-adjust: exact;
+    }
+}
+
+.resume .projects {
+    font: 300 20px/30px 'Open Sans', sans-serif;
+    color: #E31B6D;
+}
+
+.resume .bold {
+    font-weight: bold;
+    font-size: 20px;
+    color: #272934;
+}
+
+.resume .underline {
+    padding-bottom: 4px;
+    border-bottom: 3px solid #E31B6D;
+}
+
+.resume .mt20 {
+    margin-top: 20px;
+}
+
+.resume .column {
+    flex-direction: column;
+}
+
+.resume .flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.resume .lh35 {
+    line-height: 35px;
+}
+
+.resume .projectIntro {
+    font-style: italic;
+}
+
+.resume .projectDescription {
+    width: 80%;
+    display: inline-block;
+    padding: 15px;
+    text-align: justify;
+}
+
+.resume .toolsTitle {
+    font: 400 19px/24px 'Open Sans', sans-serif;
+    color: #E31B6D;
+}
+
+.resume .projectTools {
+    width: 19%;
+    display: inline-block;
+    background-color: #f5f5f5;
+    padding: 15px;
+    margin: 15px;
+}
+
+.resume .p15 {
+    padding: 15px;
+}
+
+.resume .name {
+    font-size: 24px;
+}
+
+.resume .justified {
+    text-align: justify;
+}
