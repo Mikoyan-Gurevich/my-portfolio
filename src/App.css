@@ -8,3 +8,24 @@ html, body, #root, .app, .homePage, .body {
   /* font-family: 'Roboto', sans-serif; */
   font-family: sans-serif;
 }
+
+/* Scroll bar css starts */
+/* width */
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 2px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #E31B6D; 
+    border-radius: 2px;
+}
+
+
+/* Scroll bar css ends */
