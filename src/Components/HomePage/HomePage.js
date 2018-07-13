@@ -10,7 +10,7 @@ class App extends Component {
                 <div className='flex'>
                     <div className='first'>Hello, I am <span className='name'>Gaurav Sharma</span>.</div>
                     <div>I am a front end engineer.</div>
-                    <Link to="/about"><button className='button'>View my work</button></Link>
+                    <Link to="/about"><button className='button'>Know me more !</button></Link>
                 </div>
             </div>
         );

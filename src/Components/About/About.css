@@ -1,0 +1,23 @@
+.about {
+    margin: 150px 10%;
+display: flex;
+}
+
+.description {
+    margin: 20px;
+    line-height: 40px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.imagedropshadow {
+    padding: 5px;
+    border: solid 1px #EFEFEF;
+    height: 300px;
+}
+a:hover img.imagedropshadow {
+    border: solid 1px #CCC;
+    -moz-box-shadow: 1px 1px 5px #999;
+    -webkit-box-shadow: 1px 1px 5px #999;
+    box-shadow: 1px 1px 5px #999;
+}
