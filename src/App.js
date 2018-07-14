@@ -15,14 +15,14 @@ class App extends Component {
       <div className='app'>
         <Router>
           <React.Fragment>
-            <Route path="/:path+" component={Header} />
+            <Route path="/:path" component={Header} />
             <div className='body'>
               <Route exact path="/" component={HomePage} />
               <Route path="/about" component={About} />
               <Route path="/contact" component={Contact} />
               <Route path="/resume" component={Resume} />
             </div>
-            <Route path="/:foo+" component={Footer} />
+            <Route path="/:foo" component={Footer} />
           </React.Fragment>
         </Router>
       </div>

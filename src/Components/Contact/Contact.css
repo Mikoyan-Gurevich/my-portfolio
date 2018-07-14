@@ -1,11 +1,11 @@
 .contact {
-    margin: 150px 10%;
+    padding: 150px 10%;
     font-family: sans-serif;
     /* height: 100%; */
 }
 
 .contact .title {
-    margin: 25px 0;
+    margin: 0 0 25px 0;
     font-size: 40px;
 }
 

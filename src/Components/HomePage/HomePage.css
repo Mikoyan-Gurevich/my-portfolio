@@ -56,3 +56,11 @@
   from, to { border-color: transparent }
   50% { border-color: orange; }
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .homepage .flex {
+    font-size: 20px;
+  }
+  
+}

@@ -3,10 +3,6 @@ html, body, #root, .app, .homePage, .body {
   height: 100%;
 }
 
-.body {
-    margin-top: 50px;
-}
-
 .App {
   text-align: center;
   /* font-family: 'Roboto', sans-serif; */
