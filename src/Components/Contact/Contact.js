@@ -20,22 +20,19 @@ class Contact extends Component {
                 </div>
                 <div className='form'>
                     <div className='field'>
-                        <div className='label'>Your Name</div>
-                        <input />
+                        <input placeholder='Your Name' />
                     </div>
                     <div className='field'>
-                        <div className='label'>Your Email</div>
-                        <input />
+                        <input placeholder='Your Email' />
                     </div>
                     <div className='field'>
-                        <div className='label'>What's up ?</div>
-                        <textarea />
+                        <textarea placeholder="What' s up ?" />
                     </div>
                     <div className='field'>
                         <button>Send</button>
                     </div>
                 </div>
-            </div>
+            </div >
         );
     }
 }

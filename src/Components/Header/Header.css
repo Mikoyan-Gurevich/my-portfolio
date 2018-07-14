@@ -1,16 +1,12 @@
 .header {
     display: flex;
-    flex-direction: row;
-    height: 50px;
-    border: 1px solid black;
-    font-size: 20px;
-    font-family: sans-serif; 
     background-color: #262934 !important;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    margin: 0;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
 }
 
 .links {
