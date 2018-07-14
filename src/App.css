@@ -18,6 +18,10 @@ html, body, #root, .app, .homePage, .body {
     overflow: auto;
 }
 
+.blueBackGround {
+    background-color: #272934;
+}
+
 /* Scroll bar css starts */
 /* width */
 ::-webkit-scrollbar {
@@ -52,5 +56,14 @@ html, body, #root, .app, .homePage, .body {
     .resume img {
         height: 50px !important;
         width: 50px !important;
+    }
+    .about {
+        display: block !important;
+    }
+
+    .about .description {
+        line-height: 25px;
+        text-align: justify;
+        font-size: 15px;
     }
 }
