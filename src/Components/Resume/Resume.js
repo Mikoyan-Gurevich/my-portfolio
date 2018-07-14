@@ -12,10 +12,10 @@ class Resume extends Component {
                 <div className='flex mt20'>
                     <div>
                         <div className='bold name'>Gaurav Sharma</div>
-                        <div>D-1006, Prateek Wisteria, Sector 77, Noida - 201301</div>
+                        <div>Address - XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</div>
                     </div>
                     <div>
-                        <div>Mobile No. - +91-7838369367</div>
+                        <div>Mobile No. - +91-XXXXXXXXXX</div>
                         <div>gaurav.min.js@gmail.com</div>
                     </div>
                 </div>
