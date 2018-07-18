@@ -14,9 +14,9 @@ class Contact extends Component {
                 <div className='subject'>Feel like discussing around some of the fantastic engineering stuff ?</div>
                 <div className='subject'>Get in touch by dropping a note or connect on social media.</div>
                 <div className='social'>
-                    <img src={linkedInLogo} alt="Logo" />
-                    <img src={fbLogo} alt="Logo" />
-                    <img src={instagramLogo} alt="Logo" />
+                    <a target="_blank" href='https://www.linkedin.com/in/gaurav-sharma-2557514b/'><img src={linkedInLogo} alt="Logo" /></a>
+                    <a target="_blank" href='https://www.facebook.com/bloodlordsharma/'><img src={fbLogo} alt="Logo" /></a>
+                    <a target="_blank" href='https://www.instagram.com/bloodlordsharma/'><img src={instagramLogo} alt="Logo" /></a>
                 </div>
                 <div className='form'>
                     <div className='field'>
