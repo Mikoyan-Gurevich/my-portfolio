@@ -85,3 +85,6 @@
 .resume .justified {
     text-align: justify;
 }
+.resumeToPrint {
+    border: none;
+}
