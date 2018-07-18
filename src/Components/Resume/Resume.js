@@ -154,12 +154,12 @@ class Resume extends Component {
                             <div className='bold underline'>Qualifications</div>
                             <div className='flex'>
                                 <div className='flex column lh35 p15'>
-                                    <span>Bachelor of Engineering (2009-2013)</span>
+                                    <span>Bachelor of Engineering (2013)</span>
                                     <span>Class 12th (2009)</span>
                                     <span>Class 10th (2007)</span>
                                 </div>
                                 <div className='flex column lh35 p15'>
-                                    <span>University of Pune</span>
+                                    <span>University of Pune, Pune, Maharastra</span>
                                     <span>Army Public School, Ambala Cantt, Haryana</span>
                                     <span>Army Public School, Tezpur, Assam</span>
                                 </div>
