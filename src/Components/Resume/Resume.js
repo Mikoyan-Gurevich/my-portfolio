@@ -126,10 +126,10 @@ class Resume extends Component {
                 <div id='resume'>
                     <div className='resume'>
                         <img className='resumeDownloadButton' onClick={this.printResume} src={downloadIcon} />
-                        <div className='flex mt20'>
+                        <div className='flex mt20 fdc'>
                             <div>
                                 <div className='bold name'>Gaurav Sharma</div>
-                                <div>Address - XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</div>
+                                <div>Address - XXXXXXXXXXXXXXXXXXXXXXXXXXXX</div>
                             </div>
                             <div>
                                 <div>Mobile No. - +91-XXXXXXXXXX</div>
@@ -233,7 +233,7 @@ class Resume extends Component {
                         </div>
                                         </div>
                                         <div className='projectTools'>
-                                            <span className='toolsTitle'>Tools & Technology</span>
+                                            <span className='toolsTitle'>Tools & Tech.</span>
                                             <div>ReactJS, Redux, IndexedDB, Service workers, Web sockets, WebRTC, SCSS</div>
                                             <div>Webpack, Babel, ESLint, stylelint, Flow</div>
                                         </div>
@@ -257,7 +257,7 @@ class Resume extends Component {
                         </div>
                                         </div>
                                         <div className='projectTools'>
-                                            <span className='toolsTitle'>Tools & Technology</span>
+                                            <span className='toolsTitle'>Tools & Tech.</span>
                                             <div>ReactJS, AngularJS, SCSS</div>
                                             <div>Babel, ESLint, stylelint, Grunt</div>
                                         </div>
@@ -284,7 +284,7 @@ class Resume extends Component {
                         </div>
                                         </div>
                                         <div className='projectTools'>
-                                            <span className='toolsTitle'>Tools & Technology</span>
+                                            <span className='toolsTitle'>Tools & Tech.</span>
                                             <div>ReactJS, Redux, Service workers, SCSS</div>
                                             <div>Webpack, Babel, ESLint, stylelint, Flow.</div>
                                         </div>
@@ -322,7 +322,7 @@ class Resume extends Component {
                         </div>
                                         </div>
                                         <div className='projectTools'>
-                                            <span className='toolsTitle'>Tools & Technology</span>
+                                            <span className='toolsTitle'>Tools & Tech.</span>
                                             <div>AngularJS, Bootstrap, jQuery</div>
                                             <div>Karma, Jasmine, Teamcity, ARM</div>
                                         </div>

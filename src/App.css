@@ -45,7 +45,7 @@ html, body, #root, .app, .homePage, .body {
 
 @media screen and (max-width: 480px) {
 
-    .flex {
+    .homepage .flex {
         font-size: 20px !important;
     }
 
@@ -66,4 +66,29 @@ html, body, #root, .app, .homePage, .body {
         text-align: justify;
         font-size: 15px;
     }
+
+    .resume .lh35 {
+        line-height: 20px !important;
+    }
+
+    .fdc {
+        flex-direction: column;
+    }
+    .resume {
+        font-size: 12px;
+    }
+
+    .resume .bold {
+        font-size: 15px !important;
+    }
+
+    .resume .name {
+        font-size: 18px !important;
+    }
+    .resume .flex span {
+        flex-grow: 1;
+    }
+    .resume .p15 {
+        padding: 5px !important;
+}
 }
